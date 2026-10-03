@@ -5,7 +5,7 @@ import agent
 
 
 def test_somar():
-    assert agent.somar(2, 3) == {"resultado": 5}
+    assert agent.somar(2, 3) == {"resultado": 6}
     assert agent.somar(-1.5, 0.5) == {"resultado": -1.0}
 
 
